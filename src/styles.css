@@ -1,0 +1,81 @@
+:root {
+    --dark-cerulean: #124e78;
+    --maastricht-blue: #0b132b;
+    --yankees-blue: #1C2541;
+    --sea-serpent: #5bc0be;
+    --aquamarine: #6fffe9;
+    --react: #00d8ff;
+  }
+  
+  html {
+    background: var(--yankees-blue);
+  }
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+  
+  
+  
+  
+
+  h1 {
+    flex-basis: 60%;
+    color: var(--react);
+    
+  
+  }
+
+h2 {
+    flex-basis: 60%;
+    color: midnightblue;
+   
+  
+  }
+
+  div#sidebar{
+      background-color: #6fffe9;
+      grid-row-start: 1;
+      grid-row-end: 4;
+      text-align: center;
+      padding: 90px 0;
+      text-decoration: underline midnightblue;
+      
+      
+    
+      
+  }
+
+div#visitors {
+    text-align: start;
+    background-color:#124e78;
+   grid-column-start: 2;
+   grid-column-end: 5;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   
+   
+}
+ 
+div#reviews {
+     background-color: beige;
+     text-align: center;
+ }
+
+ div#averagerating{
+     background-color: #5bc0be;
+     text-align: center;
+ }
+
+ div#analysis {
+     background-color:aliceblue;
+     text-align: center;
+ }
+
+ .styles {
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-gap: 4em
+ }
